@@ -1,0 +1,102 @@
+.box {
+  height: 50px;
+  width: 50px;
+  background: red;
+  position: relative;
+  animation: grow 5s infinite;
+}
+
+@keyframes grow {
+    0%   {top: 0px; background: red; width: 100px;}
+    50%  {background: green;}
+    100% {top: 200px; background: yellow; width: 300px;}
+}
+
+.box-2 {
+  height: 50px;
+  width: 50px;
+  top: 400px;
+  background: salmon;
+  position: relative;
+  animation: moveinasquareformation 5s infinite;
+}
+
+@keyframes moveinasquareformation {
+  0% {top: 400px; left: 0px}
+  25% {top: 400px; left: 200px}
+  50% {top: 500px; left: 200px}
+  75% {top: 500px; left: 0px}
+  100% {top: 400px; left: 0px}
+}
+
+
+
+.box-2 {
+  height: 50px;
+  width: 50px;
+  top: 400px;
+  background: salmon;
+  position: relative;
+  animation: moveinasquareformation 5s infinite;
+}
+
+
+
+#Layer_1 {
+  position: relative;
+  height: 200px !important;
+  top: 800px;
+  left: 400px;
+  margin-left: 100px !important;
+}
+
+#XMLID_8_ {
+  opacity: 0 !important;
+  margin-left: 100px;
+  z-index: 100 !important;
+  animation: opaque 2s forwards;
+}
+
+#XMLID_8_ {
+  opacity: 0 !important;
+  margin-left: 100px;
+  z-index: 100 !important;
+  animation: opaque 2s forwards;
+}
+
+#XMLID_9_ {
+  opacity: 0 !important;
+  margin-left: 100px;
+  z-index: 100 !important;
+  animation: opaque 2s forwards;
+}
+
+#XMLID_10_ {
+  opacity: 0 !important;
+  margin-left: 100px;
+  z-index: 100 !important;
+  animation: opaque 2s forwards;
+}
+
+#XMLID_11_ {
+  opacity: 0 !important;
+  margin-left: 100px;
+  z-index: 100 !important;
+  animation: opaque 2s forwards;
+}
+
+@keyframes opaque {
+  0% {opacity: 0;}
+  25% {opacity: .3;}
+  50% {opacity: .5;}
+  75% {opacity: .8;}
+  100% {opacity: 1;}
+}
+
+
+
+
+.lorem {
+  position: relative;
+  top: 2000px;
+}
